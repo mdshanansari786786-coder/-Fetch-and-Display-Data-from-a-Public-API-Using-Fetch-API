@@ -41,7 +41,7 @@ project-folder/
 ## 📌 Getting Started
 
 ### 1. Clone or Download the Project
-git clone https://github.com/yourname/fetch-users-demo.git
+git clone https://github.com/mdshanansari786786-coder/-Fetch-and-Display-Data-from-a-Public-API-Using-Fetch-API
 
 
 
