@@ -1,0 +1,117 @@
+
+  /* ----- Global Styles ----- */
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #84909c, #ffffff);
+    
+  }
+
+  h1 {
+    text-align: center;
+    color: #ca4a4a;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  /* ----- Button Styles ----- */
+  #reload-btn {
+    display: block;
+    margin: 10px auto 30px auto;
+    padding: 12px 25px;
+    background: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  }
+
+  #reload-btn:hover {
+    background: #357ABD;
+    transform: translateY(-2px);
+  }
+
+  #reload-btn:active {
+    transform: translateY(0);
+  }
+
+  /* ----- Error Message ----- */
+  #error {
+    color: #d9534f;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  /* ----- User Cards Grid ----- */
+  #users {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+  }
+
+  /* ----- Card Style ----- */
+  .user-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+    border: 1px solid #e6e6e6;
+  }
+
+  .user-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+  }
+
+  .user-card h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+
+  .user-card p {
+    margin: 6px 0;
+    color: #555;
+    line-height: 1.4;
+  }
+
+  .user-card strong {
+    color: #000;
+  }
+/* ----- Navigation Bar ----- */
+.navbar {
+  width: 100%;
+  background: #4a90e2;
+  padding: 15px 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  margin-bottom: 30px;
+}
+
+.nav-title {
+  text-align: center;
+}
+
+/* ----- Footer ----- */
+.footer {
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+  background: #4a90e2;
+  color: white;
+  font-size: 15px;
+  box-shadow: 0 -3px 8px rgba(0,0,0,0.1);
+  border-radius: 8px 8px 0 0;
+}
+
